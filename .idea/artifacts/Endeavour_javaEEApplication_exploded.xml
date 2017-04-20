@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="Endeavour:javaEEApplication exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Endeavour_javaEEApplication_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Endeavour/javaeeApplication/javaEEApplication" />
+      <element id="directory" name="Endeavour.war">
+        <element id="artifact" artifact-name="Endeavour:war exploded" />
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        </element>
+      </element>
+      <element id="directory" name="lib">
+        <element id="library" level="project" name="tomcat" />
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,25 @@
+.corInsertHref
+{
+    position: absolute;
+    z-index: 10000;
+    width: 370px;
+    float: left;
+    display: none;
+    background-color: #fff;
+    padding: 10px;
+}
+.corBackground
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #000;
+    top: 0;
+    left: 0;
+    filter: alpha(opacity=30);
+    -moz-opacity: 0.30;
+    -khtml-opacity: 0.30;
+    opacity: 0.30;
+    z-index: 9999;
+    display: none;
+}

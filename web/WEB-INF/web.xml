@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>upload</servlet-name>
+        <servlet-class>com.endeavour.encloud.Upload</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>getData</servlet-name>
+        <servlet-class>com.endeavour.encloud.getData</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>upload</servlet-name>
+        <url-pattern>/uploadData</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>getData</servlet-name>
+        <url-pattern>/getData</url-pattern>
+    </servlet-mapping>
+</web-app>

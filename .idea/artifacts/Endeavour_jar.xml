@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Endeavour:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Endeavour_jar</output-path>
+    <root id="archive" name="Endeavour.jar">
+      <element id="module-output" name="Endeavour" />
+    </root>
+  </artifact>
+</component>
