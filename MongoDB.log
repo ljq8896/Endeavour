@@ -2293,3 +2293,35 @@
 2017-04-21T21:21:44.489+0800 I STORAGE  [serviceShutdown] WiredTigerKVEngine shutting down
 2017-04-21T21:21:44.516+0800 I STORAGE  [serviceShutdown] shutdown: removing fs lock...
 2017-04-21T21:21:44.516+0800 I CONTROL  [serviceShutdown] now exiting
+2017-04-21T21:31:06.125+0800 I CONTROL  [main] ***** SERVER RESTARTED *****
+2017-04-21T21:31:06.658+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2017-04-21T21:31:06.659+0800 I CONTROL  [initandlisten] MongoDB starting : pid=322772 port=27017 dbpath=C:\Users\li\IdeaProjects\Endeavour\db 64-bit host=DESKTOP-7OFVDE0
+2017-04-21T21:31:06.659+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-04-21T21:31:06.659+0800 I CONTROL  [initandlisten] db version v3.4.3
+2017-04-21T21:31:06.659+0800 I CONTROL  [initandlisten] git version: f07437fb5a6cca07c10bafa78365456eb1d6d5e1
+2017-04-21T21:31:06.659+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2017-04-21T21:31:06.659+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-04-21T21:31:06.659+0800 I CONTROL  [initandlisten] modules: none
+2017-04-21T21:31:06.659+0800 I CONTROL  [initandlisten] build environment:
+2017-04-21T21:31:06.659+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-04-21T21:31:06.659+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-04-21T21:31:06.659+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-04-21T21:31:06.659+0800 I CONTROL  [initandlisten] options: { config: "C:\Users\li\IdeaProjects\Endeavour\MongoDB.conf", service: true, storage: { dbPath: "C:\Users\li\IdeaProjects\Endeavour\db", directoryPerDB: true }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\li\IdeaProjects\Endeavour\MongoDB.log" } }
+2017-04-21T21:31:06.660+0800 I -        [initandlisten] Detected data files in C:\Users\li\IdeaProjects\Endeavour\db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-04-21T21:31:06.660+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3547M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-04-21T21:31:06.966+0800 I CONTROL  [initandlisten] 
+2017-04-21T21:31:06.967+0800 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2017-04-21T21:31:06.967+0800 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2017-04-21T21:31:06.967+0800 I CONTROL  [initandlisten] 
+2017-04-21T21:31:07.303+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'C:/Users/li/IdeaProjects/Endeavour/db/diagnostic.data'
+2017-04-21T21:31:07.303+0800 I STORAGE  [initandlisten] Service running
+2017-04-21T21:31:07.304+0800 I NETWORK  [thread1] waiting for connections on port 27017
+2017-04-21T21:51:17.122+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:51349 #1 (1 connection now open)
+2017-04-21T21:51:17.128+0800 I NETWORK  [conn1] received client metadata from 127.0.0.1:51349 conn1: { driver: { name: "nodejs", version: "2.2.25" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.15063" }, platform: "Node.js v6.1.0, LE, mongodb-core: 2.1.9" }
+2017-04-21T21:51:17.137+0800 I -        [conn1] end connection 127.0.0.1:51349 (1 connection now open)
+2017-04-21T21:51:17.179+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:51350 #2 (1 connection now open)
+2017-04-21T21:51:17.180+0800 I NETWORK  [conn2] received client metadata from 127.0.0.1:51350 conn2: { driver: { name: "nodejs", version: "2.2.25" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.15063" }, platform: "Node.js v6.1.0, LE, mongodb-core: 2.1.9" }
+2017-04-21T21:51:17.253+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:51351 #3 (2 connections now open)
+2017-04-21T21:51:17.260+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:51352 #4 (3 connections now open)
+2017-04-21T21:51:17.268+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:51353 #5 (4 connections now open)
+2017-04-21T21:51:25.637+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:51359 #6 (5 connections now open)
