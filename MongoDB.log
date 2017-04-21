@@ -2285,3 +2285,11 @@
 2017-04-20T22:38:32.627+0800 I -        [conn2] end connection 127.0.0.1:57319 (3 connections now open)
 2017-04-20T22:38:32.627+0800 I -        [conn5] end connection 127.0.0.1:57324 (2 connections now open)
 2017-04-20T22:38:32.627+0800 I -        [conn3] end connection 127.0.0.1:57322 (1 connection now open)
+2017-04-21T21:21:44.477+0800 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_STOP request from Windows Service Control Manager, will terminate after current cmd ends
+2017-04-21T21:21:44.484+0800 I NETWORK  [serviceShutdown] shutdown: going to close listening sockets...
+2017-04-21T21:21:44.484+0800 I NETWORK  [serviceShutdown] closing listening socket: 540
+2017-04-21T21:21:44.485+0800 I NETWORK  [serviceShutdown] shutdown: going to flush diaglog...
+2017-04-21T21:21:44.485+0800 I FTDC     [serviceShutdown] Shutting down full-time diagnostic data capture
+2017-04-21T21:21:44.489+0800 I STORAGE  [serviceShutdown] WiredTigerKVEngine shutting down
+2017-04-21T21:21:44.516+0800 I STORAGE  [serviceShutdown] shutdown: removing fs lock...
+2017-04-21T21:21:44.516+0800 I CONTROL  [serviceShutdown] now exiting
