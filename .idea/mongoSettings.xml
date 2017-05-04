@@ -5,7 +5,7 @@
       <list>
         <ServerConfiguration>
           <option name="authenticationMechanism" value="SCRAM-SHA-1" />
-          <option name="password" value="shuiwei17" />
+          <option name="password" value="root" />
           <option name="serverUrls">
             <list>
               <option value="localhost:27017" />
