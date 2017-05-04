@@ -1,1 +1,6 @@
-/db/* 
+MongoDB.log
+.idea/workspace.xml
+Endeavour1/src/
+Endeavour1/test/
+db/
+out/
