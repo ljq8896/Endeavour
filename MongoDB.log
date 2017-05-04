@@ -17215,3 +17215,9 @@
 2017-05-04T08:58:26.536+0800 I ACCESS   [conn34] Successfully authenticated as principal root on admin
 2017-05-04T08:58:26.539+0800 I -        [conn34] end connection 127.0.0.1:54985 (2 connections now open)
 2017-05-04T08:58:26.540+0800 I -        [conn33] end connection 127.0.0.1:54984 (1 connection now open)
+2017-05-04T09:01:32.234+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:54992 #35 (1 connection now open)
+2017-05-04T09:01:32.254+0800 I ACCESS   [conn35] Successfully authenticated as principal root on admin
+2017-05-04T09:01:32.256+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:54993 #36 (2 connections now open)
+2017-05-04T09:01:32.270+0800 I ACCESS   [conn36] Successfully authenticated as principal root on admin
+2017-05-04T09:01:32.272+0800 I -        [conn36] end connection 127.0.0.1:54993 (2 connections now open)
+2017-05-04T09:01:32.272+0800 I -        [conn35] end connection 127.0.0.1:54992 (1 connection now open)
